@@ -1,0 +1,27 @@
+#wc_mnm_bulk_discount_data {
+  width: 100%;
+  position: relative; }
+  #wc_mnm_bulk_discount_data thead th {
+    background: #ececec;
+    padding: 7px 9px;
+    font-size: .75em;
+    text-align: left; }
+  #wc_mnm_bulk_discount_data td {
+    padding: 2px 9px;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 1px dotted #ececec; }
+  #wc_mnm_bulk_discount_data button {
+    background: transparent;
+    border: 0;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0; }
+    #wc_mnm_bulk_discount_data button.dashicons-plus-alt {
+      color: var(--wp-admin-theme-color); }
+      #wc_mnm_bulk_discount_data button.dashicons-plus-alt:hover {
+        color: var(--wp-admin-theme-color-darker-20); }
+    #wc_mnm_bulk_discount_data button.dashicons-dismiss {
+      color: red; }
+      #wc_mnm_bulk_discount_data button.dashicons-dismiss:hover {
+        color: #dc3232; }
